@@ -1,0 +1,118 @@
+{
+    "connections": {
+        "freenode": {
+            "server": "irc.freenode.net",
+            "nick": "ReviCloud",
+            "user": "revi",
+            "realname": "CloudBot - http://l.kumul.pe.kr/ReviCloud ",
+            "mode": "",
+            "nickserv_password": "[REDACTED]",
+            "nickserv_user": "Revibot",
+            "channels": [
+                "##Revi",
+                "##Revi-bot",
+                "##gry",
+                "##DangSunM"
+            ],
+            "invite_join": true,
+            "auto_rejoin": false,
+            "command_prefix": "."
+        },
+        "JDNet": {
+            "server": "irc.jasperswebsite.com",
+            "nick": "Revibot",
+            "user": "revi",
+            "realname": "CloudBot - http://l.kumul.pe.kr/ReviCloud ",
+            "mode": "+b",
+            "nickserv_password": "[REDACTED]",
+            "nickserv_user": "Revibot",
+            "channels": [
+                "#Revi",
+                "#testbot",
+                "#Wikimedia"
+            ],
+            "invite_join": true,
+            "auto_rejoin": false,
+            "command_prefix": "."
+        },
+        "Ozinger": {
+            "server": "irc.ozinger.org",
+            "nick": "ReviCloud",
+            "user": "revi",
+            "realname": "CloudBot - http://l.kumul.pe.kr/ReviCloud ",
+            "mode": "",
+            "nickserv_password": "[REDACTED]",
+            "nickserv_user": "Revibot",
+            "channels": [
+                "#Revi",
+                "#test"
+            ],
+            "invite_join": true,
+            "auto_rejoin": false,
+            "command_prefix": "."
+        }
+    },
+    "disabled_plugins": [],
+    "disabled_commands": [],
+    "acls": {},
+    "api_keys": {
+        "tvdb": "",
+        "wolframalpha": "",
+        "lastfm": "",
+        "rottentomatoes": "",
+        "soundcloud": "",
+        "twitter_consumer_key": "",
+        "twitter_consumer_secret": "",
+        "twitter_access_token": "",
+        "twitter_access_secret": "",
+        "wunderground": "",
+        "googletranslate": "",
+        "rdio_key": "",
+        "rdio_secret": ""
+    },
+    "permissions": {
+        "admins": {
+            "perms": [
+                "adminonly",
+                "addfactoid",
+                "delfactoid",
+                "ignore",
+                "botcontrol",
+                "permissions_users",
+                "op"
+            ],
+            "users": [
+                "*!sid12940@*",
+                "*!*@wikimedia/Hym411",
+                "*!*@JDNet/staff/*",
+                "*!*@Revi/wikimedia",
+                "*!*@freenode/staff/gry"
+            ]
+        },
+        "moderators": {
+            "perms": [
+                "addfactoid",
+                "delfactoid",
+                "ignore"
+            ],
+            "users": [
+                "*!*@wikimedia/DangSunM",
+                "*!*@wikipedia/Darkbluesky",
+                "*!*@wikipedia/Konggaru",
+                "*!*@wikipedia/Neoalpha"
+            ]
+        }
+    },
+    "plugins": {
+        "factoids": {
+            "prefix": false
+        },
+        "ignore": {
+            "ignored": []
+        }
+    },
+    "censored_strings": [
+        "mypass",
+        "mysecret"
+    ]
+}
