@@ -15,7 +15,7 @@
                 "##DangSunM"
             ],
             "invite_join": true,
-            "auto_rejoin": false,
+            "auto_rejoin": true,
             "command_prefix": "."
         },
         "JDNet": {
